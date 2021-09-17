@@ -1,4 +1,8 @@
 .App {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -35,4 +39,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.fruit {
+  color: white;
+  font-size: 2.5vw;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.veggie {
+  color: white;
+
+  font-size: 2.5vw;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.junk {
+  color: white;
+
+  font-size: 2.5vw;
+  margin: auto;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+.title {
+  color: white;
+
+  font-size: 3vw;
+}
+.search {
+  font-size: 2vw;
+  text-align: center;
 }
